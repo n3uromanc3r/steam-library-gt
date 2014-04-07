@@ -7,9 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display your Steam game library in your Wordpress site.  
-
-Grab related game information from the thegamesdb.net and launch your games.
+Display your Steam game library and grab related game information from the thegamesdb.net.
 
 == Description ==
 

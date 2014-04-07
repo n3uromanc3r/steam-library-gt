@@ -55,7 +55,7 @@ jQuery(document).ready(function() {
 	var counter = 1;
 
 	function resize_div() {
-		var width = document.getElementById("content").clientWidth;
+		var width = jQuery('.entry-content').width();
 		var image_width = 184;
 		var image_count = (Math.round((width-(image_width/2)) / image_width) !== 0) ? Math.round((width-(image_width/2)) / image_width) : 1;
 		var div_width = (image_count * image_width);
