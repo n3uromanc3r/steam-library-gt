@@ -30,8 +30,11 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 ## Screenshots
 
 1. The Steam Library GT Settings page
+![screenshot](http://i.imgur.com/BuBIDtI.png)
 2. Embedded library
+![screenshot](http://i.imgur.com/vkdPXL1.png)
 3. Popup modal containing game information and steam launcher
+![screenshot](http://i.imgur.com/U2AtC0w.png)
 
 ## Changelog
 
