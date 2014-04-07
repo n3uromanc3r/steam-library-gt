@@ -22,8 +22,8 @@ This section describes how to install the plugin and get it working.
 e.g.
 
 1. Upload `steam-library-gt` folder to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Add shortcode `[steam_library_gt]` to your post or page
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Add shortcode `[steam_library_gt]` to your post or page
 
 == Frequently Asked Questions ==
 
