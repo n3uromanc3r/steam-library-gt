@@ -123,7 +123,7 @@ class SteamLibraryGTSettingsPage
 	 */
 	public function print_steam_profile_id_section_info()
 	{
-		print 'You will need to provide your Steam Profile ID, in order to use this plugin.  <br>Navigate to <a href="http://steamcommunity.com/dev/apikey">http://steamcommunity.com/id/synack303/?xml=1</a> to generate and retrieve your unique key, then enter it in the field below.';
+		print 'You will need to provide your Steam Profile ID, in order to use this plugin.  <br>Navigate to the following page (be sure to replace <i>ChetFaliszek</i> with your own Steam user name or ID) <a href="http://steamcommunity.com/id/ChetFaliszek/?xml=1&l=english">http://steamcommunity.com/id/ChetFaliszek/?xml=1&l=english</a>.<br/>Copy the <b>steamID64</b> value into the field below. In Chet\'s case, the value would be <b>76561197968575517</b>';
 	}
 
 	/** 

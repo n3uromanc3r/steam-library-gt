@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Steam Library GT
- * Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+ * Plugin URI: https://github.com/n3uromanc3r/steam-library-gt
  * Description: Provides an overview of a users Steam Library.
  * Version: 1.0
  * Author: Keito
