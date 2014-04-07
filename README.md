@@ -24,7 +24,7 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 
 	Check your file/folder permissions.  Make sure the `cache` folder is writable by the server.
 
-*	**The plugin take a long time to load the first time I use it**
+*	**The plugin takes a long time to load, the first time I use it**
 
 	The first time you access the plugin it will cache every image from your library.  If your library is large, this could take several minutes... Please, be patient!
 
