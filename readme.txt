@@ -44,5 +44,7 @@ The first time you access the plugin it will cache every image from your library
 
 == Changelog ==
 
+= 1.1 =
+* Fixed bug in the way the steam key is handled.
 = 1.0 =
 * Initial commit

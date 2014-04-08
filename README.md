@@ -39,5 +39,7 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 
 ## Changelog
 
+*	**1.1**
+	Fixed bug in the way the steam key is handled.
 *	**1.0**
 	Initial commit
