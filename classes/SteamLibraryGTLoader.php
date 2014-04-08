@@ -1,12 +1,11 @@
 <?php
 
-class SteamLibraryGTLoader
-{
+class SteamLibraryGTLoader {
+	
 	private $steam_config;
-	public $sorted_games;
+	protected $sorted_games;
 
-	public function __construct($steam_config)
-	{
+	public function __construct($steam_config) {
 		$this->steam_config = $steam_config;
 		$this->sorted_games = $this->retrieve_steam_library_gt();
 	}
@@ -54,6 +53,13 @@ class SteamLibraryGTLoader
 		ksort($sorted_games);
 
 		return $sorted_games;
+	}
+
+	/**
+	 *
+	 */
+	public function get_sorted_games() {
+		return $this->sorted_games;
 	}
 
 	/**

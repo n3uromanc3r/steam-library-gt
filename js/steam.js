@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
 	jQuery.ajax({
 		type: "GET",
 		url: steam_data.plugin_url + "/steam-library-gt/ajax/game_list.php",
-		data: {'steam_web_api_key' : steam_data.steam_web_api_key, 'steam_profile_id' : steam_data.steam_profile_id},
+		data: {'steam_profile_id' : steam_data.steam_profile_id},
 		dataType: "json",
 		success: function(data) {
 

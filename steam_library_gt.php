@@ -25,8 +25,8 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-require_once( __DIR__ . '/classes/SteamLibraryGTSettingsPage.php' );
-require_once( __DIR__ . '/classes/SteamLibraryGT.php' );
+require_once(__DIR__ . '/classes/SteamLibraryGTSettingsPage.php');
+require_once(__DIR__ . '/classes/SteamLibraryGT.php');
 
 wp_enqueue_script('jquery');
 
