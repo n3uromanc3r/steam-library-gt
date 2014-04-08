@@ -7,17 +7,9 @@ jQuery(document).ready(function() {
 	}
 
 	var div = jQuery('#container');
-	var page_load_spinner = '<div id="ballsWaveG">';
-	page_load_spinner += '<div id="ballsWaveG_1" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_2" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_3" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_4" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_5" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_6" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_7" class="ballsWaveG"></div>';
-	page_load_spinner += '<div id="ballsWaveG_8" class="ballsWaveG"></div>';
-	page_load_spinner += '</div>';
-	var loading_content = '<div id="loading_content">' + page_load_spinner + loading_message + '</div>';
+	var page_load_spinner = '<div id="floatingCirclesG"><div class="f_circleG" id="frotateG_01"></div><div class="f_circleG" id="frotateG_02"></div><div class="f_circleG" id="frotateG_03"></div><div class="f_circleG" id="frotateG_04"></div><div class="f_circleG" id="frotateG_05"></div><div class="f_circleG" id="frotateG_06"></div><div class="f_circleG" id="frotateG_07"></div><div class="f_circleG" id="frotateG_08"></div></div>';
+
+	var loading_content = '<div id="loading_content"><div id="spinner" style="position: relative; margin: auto; margin-bottom: 30px;">' + page_load_spinner + '</div>' + loading_message + '</div>';
 	div.append(loading_content);
 
 	jQuery.ajax({
