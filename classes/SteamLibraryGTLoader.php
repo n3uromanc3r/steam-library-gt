@@ -1,7 +1,7 @@
 <?php
 
 class SteamLibraryGTLoader {
-	
+
 	private $steam_config;
 	protected $sorted_games;
 
@@ -56,7 +56,7 @@ class SteamLibraryGTLoader {
 	}
 
 	/**
-	 *
+	 * Get sorted games list
 	 */
 	public function get_sorted_games() {
 		return $this->sorted_games;
