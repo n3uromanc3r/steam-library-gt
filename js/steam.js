@@ -22,7 +22,9 @@ jQuery(document).ready(function() {
 			var div = jQuery('#container');
 			destroy('modal');
 
-			jQuery('#loading_content').fadeOut(500);
+			jQuery('#loading_content').fadeOut(500, function() {
+				jQuery('#loading_content').remove();
+			});
 
 			setTimeout(function() {
 				for (var key in data) {
