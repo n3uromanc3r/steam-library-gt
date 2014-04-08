@@ -39,7 +39,9 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 
 ## Changelog
 
+*	**1.2**
+	Added missing cache folder.
 *	**1.1**
 	Fixed [bug](https://github.com/n3uromanc3r/steam-library-gt/issues/1) in the way the steam key is handled.
 *	**1.0**
-	Initial commit
+	Initial commit.
