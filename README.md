@@ -39,6 +39,8 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 
 ## Changelog
 
+*	**1.4**
+	Switched to native WP AJAX action hooks
 *	**1.3**
 	Updated page load spinner.
 *	**1.2**

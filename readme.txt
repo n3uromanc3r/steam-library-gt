@@ -44,6 +44,8 @@ The first time you access the plugin it will cache every image from your library
 
 == Changelog ==
 
+= 1.4 =
+* Switched to native WP AJAX action hooks.
 = 1.3 =
 * Updated page load spinner.
 = 1.2 =
