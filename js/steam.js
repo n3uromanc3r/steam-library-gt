@@ -13,9 +13,9 @@ jQuery(document).ready(function() {
 	div.append(loading_content);
 
 	jQuery.ajax({
-		type: "GET",
-		url: steam_data.plugin_url + "/steam-library-gt/ajax/game_list.php",
-		data: {'steam_profile_id' : steam_data.steam_profile_id},
+		type: "POST",
+		url: steam_data.ajaxurl,
+		data: { 'action': 'load_library', 'steam_profile_id' : steam_data.steam_profile_id },
 		dataType: "json",
 		success: function(data) {
 
