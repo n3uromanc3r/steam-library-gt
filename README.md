@@ -37,6 +37,19 @@ Simply add the shortcode [steam_library_gt] to a page or post, to embed the libr
 3. Popup modal containing game information and steam launcher
 ![screenshot](http://i.imgur.com/U2AtC0w.png)
 
+## API Usage
+
+This plugin uses 2 separate remote API's:
+
+1. Steam - http://api.steampowered.com
+2. thegamesDB - http://thegamesdb.net/api
+
+The Steam API is used to retrieve your game library data (using the GetOwnedGames method).  To successfully interact with this service, we use the Steam Profile ID and Steam Web API Key you provide in the plugin configuration admin page.
+
+ThegamesDB.net API is used to retrieve per game information (using the GetGame method).  No credentials are required to interact with this service.
+
+Further information on both API service methods can be found [here](https://developer.valvesoftware.com/wiki/Steam_Web_API#GetOwnedGames) and [here](http://wiki.thegamesdb.net/index.php?title=GetGame)
+
 ## Changelog
 
 *	**1.4**
