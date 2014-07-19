@@ -2,8 +2,8 @@
 Contributors: virusav
 Tags: gaming, steam, library
 Requires at least: 3.8.1 (may work in lower, but not tested)
-Tested up to: 3.8.1
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,10 @@ Further information on both API service methods can be found here -> https://dev
 
 == Changelog ==
 
+= 1.6 =
+* Fixed bug with loading javascript files.
+= 1.5 =
+* Updated readme.
 = 1.4 =
 * Switched to native WP AJAX action hooks.
 = 1.3 =

@@ -3,7 +3,7 @@
  * Plugin Name: Steam Library GT
  * Plugin URI: https://github.com/n3uromanc3r/steam-library-gt
  * Description: Provides an overview of a users Steam Library.
- * Version: 1.0
+ * Version: 1.6
  * Author: Keito
  * Author URI: https://github.com/n3uromanc3r
  * License: GPL2

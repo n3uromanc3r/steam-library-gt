@@ -52,8 +52,10 @@ Further information on both API service methods can be found [here](https://deve
 
 ## Changelog
 
+*	**1.5*
+	Updated information.
 *	**1.4**
-	Switched to native WP AJAX action hooks
+	Switched to native WP AJAX action hooks.
 *	**1.3**
 	Updated page load spinner.
 *	**1.2**
